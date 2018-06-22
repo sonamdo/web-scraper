@@ -28,6 +28,7 @@ const csvParser = () => {
     if (err) throw err;
     console.log('Saved!')
   })
+    productList = []
 }
 
 const gears = () => {
